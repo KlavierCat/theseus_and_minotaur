@@ -1,0 +1,44 @@
+body{
+  background-color:white;
+  color:black;
+  text-align:center;
+}
+
+header, p{
+  text-align:center;
+}
+
+h1{
+  margin:10px;
+  font-size:1.5em;
+}
+
+table{
+  margin:auto;
+  margin-top:25px;
+  margin-bottom:25px;
+  border-collapse:collapse;
+}
+
+td{
+  border:thin solid black;
+  width:70px;
+  height:70px;
+  padding:auto;
+  text-align:center; /*Can be used to align img as well!*/
+}
+
+img{
+  vertical-align:middle; /*To vertically align the img*/
+  width:65px; /*Experiment approves that it is better to set the img width and height!*/
+  height:65px;
+}
+
+div{
+	margin:10px;
+}
+
+button{
+	width:90px;
+	height:30px
+}
